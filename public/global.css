@@ -12,7 +12,7 @@ body {
 
 a, button {
   text-decoration: inherit;
-  color: white;
+  color: inherit;
 }
 
 a {
