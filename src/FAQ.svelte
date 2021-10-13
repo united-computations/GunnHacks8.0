@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Section from './Section.svelte';
     import Question from './Question.svelte';
 
     const questions = [
@@ -26,11 +27,11 @@
                 'on creativity, technical difficulty, polish, and utility by a panel of industry judges.'
         },
         {
+            // Update with team formation event info when that becomes available
             q: 'How big should teams be?',
             a: 'We highly encourage you to build with a team. Teamwork is deeply rooted in the hacking ethos, and ' +
-                'you’ll have a better time building with your brightest peers. Teams shall consist of no more ' +
-                'than four people. But don’t worry if you don’t have a team before the event — we will ' +
-                'have a team-formation session Friday night.'
+                'you’ll have a better time building with your brightest peers. Teams should consist of no more ' +
+                'than four people.'
         },
         {
             q: 'What if I don’t have a team?',
@@ -49,12 +50,14 @@
                 'you want to take a break.'
         },
         {
+            // This question should be updated when we learn more about whether a hybrid hackathon will be possible
+            // and also when we create a GunnHacks 8.0 discord server.
             q: 'Where is GunnHacks?',
-            a: 'Due to the pandemic, GunnHacks 7.0 will be held online this year. Join the <a href="https://discord.gg/ZzHuQMXRW6">Discord server</a>.'
+            a: 'Due to the pandemic, GunnHacks 8.0 will be held online this year.</a>.'
         },
         {
             q: 'When does registration close?',
-            a: 'Registration closes on February 12th, at 5pm PST, when the hackathon begins.'
+            a: 'Registration closes on February 4th, 2022 at 5pm PST, when the hackathon begins.'
         },
         {
             q: 'I’m interested in mentoring! How can I get involved?',
@@ -67,41 +70,19 @@
     ];
 </script>
 
-<section id="faq">
-    <div class="content">
-        <h2>FAQ</h2>
-
-        <div class="question-grid">
-            {#each questions as {q, a}}
-                <Question q={q} a={a} />
-            {/each}
-        </div>
+<Section red title="FAQ">
+    <div class="question-grid">
+        {#each questions as {q, a}}
+            <Question q={q} a={a} />
+        {/each}
     </div>
-</section>
+</Section>
 
 <style lang="scss">
-  #faq {
-    font-family: 'Abel';
-    background-color: #dd5d5c;
-  }
-
-  .content {
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 1024px;
-
-    h2 {
-      text-align: center;
-      font-size: 3rem;
-      border-bottom: 2px solid white;
-      margin-top: 0;
-      margin-bottom: 1rem;
-    }
-
-    .question-grid {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      grid-auto-flow: row;
-    }
+  .question-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: row;
+    text-align: left;
   }
 </style>

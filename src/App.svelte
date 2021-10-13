@@ -1,7 +1,7 @@
 <script lang="ts">
+    import Heading from './Heading.svelte';
     import About from './About.svelte';
     import FAQ from './FAQ.svelte';
-    import Heading from "./Heading.svelte";
 </script>
 
 <Heading />

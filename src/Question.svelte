@@ -1,4 +1,6 @@
 <script lang="ts">
+    import {fly} from 'svelte/transition';
+
     export let q: string;
     export let a: string;
 
@@ -11,7 +13,7 @@
         <h3>{@html q}</h3>
     </div>
     {#if open}
-        <p>{@html a}</p>
+        <p in:fly="{{y: -20, duration: 350}}" out:fly="{{y: -20, duration: 300}}">{@html a}</p>
     {/if}
 </div>
 
