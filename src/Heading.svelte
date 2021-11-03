@@ -14,7 +14,7 @@
             {/each}
         </div>
     {/if}
-    <p>The eight iteration of GunnHacks, Gunn High School's annual hackathon organized by United Computations.</p>
+    <p>The eighth iteration of GunnHacks, Gunn High School's annual hackathon organized by United Computations.</p>
 </section>
 
 <style lang="scss">
