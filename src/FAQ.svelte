@@ -5,7 +5,7 @@
     const questions = [
         {
             q: 'What is a hackathon?',
-            a: 'Hackathons are where your crazy idea becomes reality. Students work in teams of up to four for 36 ' +
+            a: 'Hackathons are where your crazy idea becomes reality. Students work in teams of up to four for 24 ' +
                 'hours to create something amazing. Build anything — there are no restrictions on what you can create. ' +
                 'Dive in and make the most incredible thing you can alongside fellow creators.'
         },
@@ -50,14 +50,14 @@
                 'you want to take a break.'
         },
         {
-            // This question should be updated when we learn more about whether a hybrid hackathon will be possible
-            // and also when we create a GunnHacks 8.0 discord server.
             q: 'Where is GunnHacks?',
-            a: 'Due to the pandemic, GunnHacks 8.0 will be held online this year.</a>.'
+            a: 'Due to the pandemic, GunnHacks 8.0 will be held online for all non-Gunn students. For Gunn students ' +
+                'attending in-person, the hackathon will be held in the Gunn library.'
         },
         {
             q: 'When does registration close?',
-            a: 'Registration closes on February 4th, 2022 at 5pm PST, when the hackathon begins.'
+            a: 'Registration hasn’t opened yet, but when it does, it will close on February 4th, 2022 at 11:59pm PST, ' +
+                'when the hackathon begins.'
         },
         {
             q: 'I’m interested in mentoring! How can I get involved?',

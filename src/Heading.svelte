@@ -7,13 +7,17 @@
 
 <div id="header-image"></div>
 <section id="heading">
-    {#if visible}
-        <div class="title-wrapper">
-            {#each 'GunnHacks 8.0' as char, i}
-                <span class="title" in:fly="{{y: -20, delay: 1000 + i * 100, duration: 800}}">{char}</span>
-            {/each}
-        </div>
-    {/if}
+    <div class="title-wrapper">
+        <img src="lambda.png" alt="lambda" class="heading-image">
+        {#if visible}
+            <div class="title">
+                {#each 'GunnHacks 8.0' as char, i}
+                    <span class="title-character" in:fly="{{y: -20, delay: 1000 + i * 100, duration: 800}}">{char}</span>
+                {/each}
+            </div>
+        {/if}
+    </div>
+    <hr>
     <p>The eighth iteration of GunnHacks, Gunn High School's annual hackathon organized by United Computations.</p>
 </section>
 
@@ -37,15 +41,33 @@
     justify-content: center;
 
     .title-wrapper {
-      .title {
-        font-size: 10rem;
-        transform: translate(-50%, -50%);
+      display: flex;
+      margin: 0 auto;
+
+      $heading-size: 5rem;
+
+      .heading-image {
+        height: $heading-size;
+      }
+
+      .title-character {
+        font-size: $heading-size;
         font-family: 'Overpass';
-        letter-spacing: 0.12em;
+        letter-spacing: 0.1em;
         color: white;
         font-weight: 400;
         will-change: filter;
       }
     }
+  }
+
+  hr {
+    width: 10rem;
+    border: none;
+    border-top: 2px solid white;
+  }
+
+  p {
+    //font-size: 1.15rem;
   }
 </style>

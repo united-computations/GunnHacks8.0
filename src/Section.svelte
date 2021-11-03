@@ -24,7 +24,7 @@
 
       h2 {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
         border-bottom: 2px solid black;
         margin-top: 0;
         margin-bottom: 1rem;

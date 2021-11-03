@@ -9,8 +9,10 @@
         of up to four to create something amazing. We welcome any high school student with an interest
         in technology!
     </p>
+    <!--
     <p>
         Before you participate, please refer to the MLH Code of Conduct <a href="docs/mlh-code-of-conduct.pdf" target="_blank" rel="noopener noreferrer">here</a>
         and our hacker guide <a href="https://docs.google.com/document/d/1TPr6b7RYaQ9f5ruTVCpPF0TaenZ0EHUv00PDlF_rgUI/" target="_blank" rel="noopener noreferrer">here</a>.
     </p>
+    -->
 </Section>
