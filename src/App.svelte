@@ -3,12 +3,14 @@
     import About from './About.svelte';
     import FAQ from './FAQ.svelte';
     import Sponsors from './Sponsors.svelte';
+    import Footer from './Footer.svelte';
 </script>
 
 <Heading />
 <About />
 <FAQ />
 <Sponsors />
+<Footer />
 
 <link href="https://fonts.googleapis.com/css?family=Overpass:100,400" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">

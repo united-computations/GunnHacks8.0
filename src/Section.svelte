@@ -1,11 +1,11 @@
 <script lang="ts">
     export let red: boolean;
-    export let title: string;
+    export let title: string | undefined;
 </script>
 
 <section class:red>
     <div class="content">
-        <h2>{title}</h2>
+        {#if title}<h2>{title}</h2>{/if}
         <slot />
     </div>
 </section>
