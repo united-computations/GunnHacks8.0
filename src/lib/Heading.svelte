@@ -24,7 +24,7 @@
 <style lang="scss">
   #header-image {
     position: fixed;
-    background-image: url('../bg.svg');
+    background-image: url('../../bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
