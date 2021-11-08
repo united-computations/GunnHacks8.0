@@ -24,7 +24,10 @@
 <style lang="scss">
   #header-image {
     position: fixed;
-    background-image: url('../../bg.svg');
+    // This CSS is built to `_app/assets/pages/index.svelte-xxxxxxxx.css`, so to access `bg.svg` at the root level
+    // with a relative path 3 ../s must be used. This is an incredibly hacky solution.
+    // TODO: figure out if image importing can solve this mess
+    background-image: url('../../../bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
