@@ -67,6 +67,7 @@
             q: 'What if I have another question?',
             a: 'We love questions! Please feel free to reach out to us at <a href="mailto:ghshacks@gmail.com">ghshacks@gmail.com</a>.'
         },
+        // TODO: Add questions about COVID protocol / safety and overnight stay or other in person details
     ];
 </script>
 

@@ -43,11 +43,13 @@
     .title-wrapper {
       display: flex;
       margin: 0 auto;
+      flex-wrap: wrap;
 
       $heading-size: 5rem;
 
       .heading-image {
         height: $heading-size;
+        margin: 0 auto;
       }
 
       .title-character {

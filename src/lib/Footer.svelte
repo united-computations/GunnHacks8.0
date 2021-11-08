@@ -9,10 +9,10 @@
         <h3>Previous Years:</h3>
 
         {#each previousYears as year}
-            <a target="_blank" rel="noopener noreferrer" href={`GunnHacks${year}`}>{year}</a>
+            <a target="_blank" rel="noopener noreferrer external" href={`GunnHacks${year}`}>{year}</a>
         {/each}
         <!-- 1.0 is special and has the URL "/gunnhacks" instead of "/GunnHacks1.0" -->
-        <a target="_blank" rel="noopener noreferrer" href="/gunnhacks">1.0</a>
+        <a target="_blank" rel="noopener noreferrer external" href="/gunnhacks">1.0</a>
     </div>
 </Section>
 
