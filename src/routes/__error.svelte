@@ -1,4 +1,5 @@
 <script lang="ts" context="module">
+    // For the type of `res`, see https://kit.svelte.dev/docs#layouts-error-pages
     export function load(res) {
         return { props: res }
     }
