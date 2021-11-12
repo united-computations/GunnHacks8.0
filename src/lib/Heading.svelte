@@ -1,11 +1,13 @@
 <script lang="ts">
     import {fade, draw, fly} from 'svelte/transition';
 
+    import Bg from '../lib/Bg.svelte';
+
     let visible = false;
     setTimeout(() => visible = true, 100)
 </script>
 
-<div id="header-image"></div>
+<Bg />
 <section id="heading">
     <div class="title-wrapper">
         <img src="lambda.png" alt="lambda" class="heading-image">
@@ -22,20 +24,6 @@
 </section>
 
 <style lang="scss">
-  #header-image {
-    position: fixed;
-    // This CSS is built to `_app/assets/pages/index.svelte-xxxxxxxx.css`, so to access `bg.svg` at the root level
-    // with a relative path 3 ../s must be used. This is an incredibly hacky solution.
-    // TODO: figure out if image importing can solve this mess
-    background-image: url('../../../bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-  }
-
   #heading {
     text-align: center;
     height: 100vh;
