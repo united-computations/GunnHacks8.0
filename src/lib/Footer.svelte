@@ -1,7 +1,7 @@
 <script>
     import Section from './Section.svelte';
 
-    const previousYears = ['7.0', '6.0', '5.0', '4.0', '3.0', '2.0'];
+    const previousYears = ['7.0', '6.0', '5.0', '4.0', '3.0', '2.0', '1.0'];
 </script>
 
 <Section red>
@@ -9,10 +9,8 @@
         <h3>Previous Years:</h3>
 
         {#each previousYears as year}
-            <a target="_blank" rel="noopener noreferrer external" href={`GunnHacks${year}`}>{year}</a>
+            <a target="_blank" rel="noopener noreferrer" href={`https://${year}.gunnhacks.com`}>{year}</a>
         {/each}
-        <!-- 1.0 is special and has the URL "/gunnhacks" instead of "/GunnHacks1.0" -->
-        <a target="_blank" rel="noopener noreferrer external" href="/gunnhacks">1.0</a>
     </div>
 </Section>
 
