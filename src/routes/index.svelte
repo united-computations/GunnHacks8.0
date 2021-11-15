@@ -19,8 +19,9 @@
 <Footer />
 
 <style global lang="scss">
-  body {
-    background-color: rgb(17, 24, 39);
-    color: white;
+  // Style svg icons in <Heading>
+  // Component scoped css forces my hand here, but hopefully there is a cleaner way to do this
+  .icon {
+    margin: 0 0.5rem;
   }
 </style>

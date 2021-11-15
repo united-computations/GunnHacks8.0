@@ -1,5 +1,6 @@
 <script lang="ts">
     import {fade, draw, fly} from 'svelte/transition';
+    import {InstagramIcon, FacebookIcon, MailIcon} from 'svelte-feather-icons';
 
     import Bg from '../lib/Bg.svelte';
 
@@ -21,6 +22,18 @@
     </div>
     <hr>
     <p>The eighth iteration of GunnHacks, Gunn High School's annual hackathon organized by United Computations.</p>
+
+    <div>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/GunnHacks">
+            <FacebookIcon class="icon" size="1.5x" />
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gunn.hacks/">
+            <InstagramIcon class="icon" size="1.5x" />
+        </a>
+        <a href="mailto:ghshacks@gmail.com">
+            <MailIcon class="icon" size="1.5x" />
+        </a>
+    </div>
 </section>
 
 <style lang="scss">
@@ -58,9 +71,5 @@
     width: 10rem;
     border: none;
     border-top: 2px solid white;
-  }
-
-  p {
-    //font-size: 1.15rem;
   }
 </style>

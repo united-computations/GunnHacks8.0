@@ -24,6 +24,7 @@
   },
   "type": "module",
   "dependencies": {
-    "sass": "^1.43.4"
+    "sass": "^1.43.4",
+    "svelte-feather-icons": "^3.5.0"
   }
 }
