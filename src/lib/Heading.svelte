@@ -50,10 +50,15 @@
       flex-wrap: wrap;
 
       $heading-size: 5rem;
+      $small-heading-size: 3rem;
 
       .heading-image {
         height: $heading-size;
         margin: 0 auto;
+
+        @media (max-width: 640px) {
+          height: $small-heading-size;
+        }
       }
 
       .title-character {
@@ -63,6 +68,10 @@
         color: white;
         font-weight: 400;
         will-change: filter;
+
+        @media (max-width: 640px) {
+          font-size: $small-heading-size;
+        }
       }
     }
   }

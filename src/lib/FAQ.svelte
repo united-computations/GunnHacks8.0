@@ -85,5 +85,9 @@
     grid-template-columns: 50% 50%;
     grid-auto-flow: row;
     text-align: left;
+
+    @media (max-width: 640px) {
+      grid-template-columns: 100%;
+    }
   }
 </style>

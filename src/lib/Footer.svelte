@@ -8,9 +8,11 @@
     <div class="footer">
         <h3>Previous Years:</h3>
 
-        {#each previousYears as year}
-            <a target="_blank" rel="noopener noreferrer" href={`https://${year}.gunnhacks.com`}>{year}</a>
-        {/each}
+        <div class="footer-links">
+            {#each previousYears as year}
+                <a target="_blank" rel="noopener noreferrer" href={`https://${year}.gunnhacks.com`}>{year}</a>
+            {/each}
+        </div>
     </div>
 </Section>
 
@@ -19,6 +21,11 @@
     font-size: 1.25rem;
     display: flex;
     align-items: center;
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+    }
 
     h3 {
       margin: 0;
