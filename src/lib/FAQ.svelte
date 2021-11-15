@@ -56,8 +56,18 @@
         },
         {
             q: 'When does registration close?',
-            a: 'Registration hasn’t opened yet, but when it does, it will close on February 4th, 2022 at 11:59pm PST, ' +
-                'when the hackathon begins.'
+            a: 'Registration will close on February 4th, 2022 at 11:59pm PST, when the hackathon begins.'
+        },
+        {
+            q: 'Why participate in-person?',
+            a: 'For the first time since GunnHacks 5.0, we will host Gunn students in-person. An in-person hackathon ' +
+                'provides a unique opportunity to work side-by-side with your peers and have an experience even more ' +
+                'rewarding than a virtual hackathon.'
+        },
+        {
+            q: 'Will food be provided?',
+            a: 'Yes, we will provide dinner on Saturday, breakfast and lunch on Sunday, and a snack. If you have dietary ' +
+                'restrictions, we strongly suggest bringing your own food.'
         },
         {
             q: 'I’m interested in mentoring! How can I get involved?',

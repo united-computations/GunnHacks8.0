@@ -10,6 +10,7 @@
 
 <Bg/>
 <a href="/"><ArrowLeftIcon size="1x" /><span>Back to home</span></a>
+<!-- TODO: implement an "embed not working?" link to the form on google https://forms.gle/Gv9RxbZAEuLRfRDs8 -->
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfFf9M3Ix7qIYRueVPzOziZTGpuXEdnzyzewueTsWzxmqEmnw/viewform?embedded=true"
         frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
