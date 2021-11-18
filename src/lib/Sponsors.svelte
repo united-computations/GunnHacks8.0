@@ -11,6 +11,7 @@
 
     <div class="sponsors-content">
         <Sponsor href="https://www.wolfram.com" src="sponsors/wolfram.svg" alt="wolfram" />
+        <Sponsor href="https://gunn.paloaltopta.org/" src="sponsors/ptsa.jpeg" alt="PTSA" />
     </div>
 </Section>
 

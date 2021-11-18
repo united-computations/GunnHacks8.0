@@ -5,8 +5,8 @@
 </script>
 
 <div>
-    <a href={href}>
-        <img src={src} alt={alt}>
+    <a target="_blank" rel="noopener noreferrer" {href}>
+        <img {src} {alt}>
     </a>
 </div>
 
