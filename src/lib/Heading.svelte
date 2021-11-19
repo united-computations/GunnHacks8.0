@@ -3,6 +3,7 @@
     import {InstagramIcon, FacebookIcon, MailIcon} from 'svelte-feather-icons';
 
     import Bg from '../lib/Bg.svelte';
+    import Button from "./Button.svelte";
 
     let visible = false;
     setTimeout(() => visible = true, 100)
@@ -23,7 +24,11 @@
     <hr>
     <p>The eighth iteration of GunnHacks, Gunn High School's annual hackathon organized by United Computations.</p>
 
-    <div>
+    <div class="buttons">
+        <a href="/register"><Button>REGISTER</Button></a>
+    </div>
+
+    <div class="media-links">
         <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/GunnHacks">
             <FacebookIcon class="icon" size="1.5x" />
         </a>
@@ -74,6 +79,10 @@
         }
       }
     }
+  }
+
+  .buttons {
+    margin-bottom: 1rem;
   }
 
   hr {
