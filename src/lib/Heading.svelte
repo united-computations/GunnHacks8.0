@@ -2,8 +2,8 @@
     import {fade, draw, fly} from 'svelte/transition';
     import {InstagramIcon, FacebookIcon, MailIcon} from 'svelte-feather-icons';
 
-    import Bg from '../lib/Bg.svelte';
-    import Button from "./Button.svelte";
+    import Bg from './Bg.svelte';
+    import Button from './Button.svelte';
 
     let visible = false;
     setTimeout(() => visible = true, 100)
