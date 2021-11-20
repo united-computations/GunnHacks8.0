@@ -1,6 +1,8 @@
 <script lang="ts">
     import Heading from '../lib/Heading.svelte';
     import About from '../lib/About.svelte';
+    import Schedule from '../lib/Schedule.svelte';
+    import Prizes from '../lib/Prizes.svelte';
     import FAQ from '../lib/FAQ.svelte';
     import Sponsors from '../lib/Sponsors.svelte';
     import Footer from '../lib/Footer.svelte';
@@ -14,6 +16,8 @@
 
 <Heading />
 <About />
+<Schedule />
+<Prizes />
 <FAQ />
 <Sponsors />
 <Footer />
