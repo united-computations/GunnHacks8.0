@@ -55,13 +55,14 @@
       display: flex;
       margin: 0 auto;
       flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
 
       $heading-size: 5rem;
       $small-heading-size: 3rem;
 
       .heading-image {
         height: $heading-size;
-        margin: 0 auto;
 
         @media (max-width: 640px) {
           height: $small-heading-size;
