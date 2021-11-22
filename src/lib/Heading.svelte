@@ -23,6 +23,7 @@
     </div>
     <hr>
     <p>The eighth iteration of GunnHacks, Gunn High School's annual hackathon organized by United Computations.</p>
+    <p class="date"><strong>February 5-6, 2022</strong></p>
 
     <div class="buttons">
         <a href="/register"><Button>REGISTER</Button></a>
@@ -48,6 +49,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 20px;
 
     .title-wrapper {
       display: flex;
@@ -82,12 +84,22 @@
   }
 
   .buttons {
-    margin-bottom: 1rem;
+    margin: 1rem 0;
   }
 
   hr {
     width: 10rem;
     border: none;
     border-top: 2px solid white;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin: 0.1rem 0;
+
+    &.date {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+    }
   }
 </style>
