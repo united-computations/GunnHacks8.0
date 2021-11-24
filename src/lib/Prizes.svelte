@@ -3,12 +3,12 @@
 
     // Could also make this a nested array perhaps
     const prizes = [
-        {r: '1st Overall', p: 'Gaming Mic + Wolfram Award'},
-        {r: '2nd Overall', p: 'IOTunix LED Lamp + Wolfram Award'},
-        {r: '3rd Overall', p: 'Amazon Echo Dot + Wolfram Award'},
+        {r: '1st Overall', p: 'Gaming Mic + Wolfram Award + Leading Learners Expansion Pack'},
+        {r: '2nd Overall', p: 'IOTunix LED Lamp + Wolfram Award + Leading Learners Expansion Pack'},
+        {r: '3rd Overall', p: 'Amazon Echo Dot + Wolfram Award + Leading Learners Expansion Pack'},
         {r: '4th, 5th Overall', p: 'Discord Nitro Classic  (2 Months) + Wolfram Award'},
         {r: 'Most Creative', p: '$20 Adafruit Gift Certificate'},
-        {r: 'Best Solo Hack', p: 'Discord Nitro Classic (3 Months)'},
+        {r: 'Best Solo Hack', p: 'Discord Nitro Classic (3 Months) + Leading Learners Expansion Pack'},
     ];
 </script>
 
