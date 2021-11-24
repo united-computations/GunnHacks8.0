@@ -13,6 +13,7 @@
         <Sponsor href="https://www.wolfram.com" src="sponsors/wolfram.svg" alt="Wolfram" />
         <Sponsor href="https://gunn.paloaltopta.org/" src="sponsors/ptsa.jpeg" alt="PTSA" />
         <Sponsor href="https://linktr.ee/leadinglearners" src="sponsors/leading_learners.png" alt="Leading Learners" />
+        <Sponsor href="https://1password.com/" src="sponsors/1password.svg" alt="1Password" />
     </div>
 </Section>
 
