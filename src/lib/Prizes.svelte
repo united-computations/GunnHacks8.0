@@ -9,6 +9,7 @@
         {r: '4th, 5th Overall', p: 'Discord Nitro Classic  (2 Months) + Wolfram Award'},
         {r: 'Most Creative', p: '$20 Adafruit Gift Certificate'},
         {r: 'Best Solo Hack', p: 'Discord Nitro Classic (3 Months) + Leading Learners Expansion Pack'},
+        {r: 'Best All-Girls Team', p: 'Anker SoundCore Bluetooth Speaker'},
     ];
 </script>
 

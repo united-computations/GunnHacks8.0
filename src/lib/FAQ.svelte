@@ -71,7 +71,7 @@
         },
         {
             q: 'I’m interested in mentoring! How can I get involved?',
-            a: 'Yay! Shoot us an email at <a href="mailto:ghshacks@gmail.com">ghshacks@gmail.com</a>.'
+            a: 'Yay! Fill out our mentor application form <a href="https://forms.gle/Rc2QsxPrDN6Hv1uLA">here</a>.'
         },
         {
             q: 'What if I have another question?',

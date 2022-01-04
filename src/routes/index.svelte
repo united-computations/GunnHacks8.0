@@ -3,6 +3,8 @@
     import About from '../lib/About.svelte';
     import Schedule from '../lib/Schedule.svelte';
     import Prizes from '../lib/Prizes.svelte';
+    import Speaker from '../lib/Speaker.svelte';
+    import Judges from '../lib/Judges.svelte';
     import FAQ from '../lib/FAQ.svelte';
     import Sponsors from '../lib/Sponsors.svelte';
     import Footer from '../lib/Footer.svelte';
@@ -18,6 +20,8 @@
 <About />
 <Schedule />
 <Prizes />
+<!-- <Speaker /> -->
+<!-- <Judges /> -->
 <FAQ />
 <Sponsors />
 <Footer />
