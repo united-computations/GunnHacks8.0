@@ -15,7 +15,7 @@
         <Sponsor href="https://linktr.ee/leadinglearners" src="sponsors/leading_learners.png" alt="Leading Learners" />
         <Sponsor href="https://1password.com/" src="sponsors/1password.svg" alt="1Password" />
         <Sponsor href="https://www.janestreet.com/" src="sponsors/jane_street.png" alt="Jane Street" />
-        <Sponsor href="http://amzn.to/2GontHO" src="sponsors/iotunix.png" alt="IOTunix" />
+        <Sponsor href="https://amzn.to/2GontHO" src="sponsors/iotunix.png" alt="IOTunix" />
         <Sponsor href="https://www.leangap.org/" src="sponsors/leangap.svg" alt="Leangap" />
     </div>
 </Section>

@@ -51,23 +51,11 @@
         },
         {
             q: 'Where is GunnHacks?',
-            a: 'Due to the pandemic, GunnHacks 8.0 will be held online for all non-Gunn students. For Gunn students ' +
-                'attending in-person, the hackathon will be held in the Gunn library.'
+            a: 'Due to the pandemic, GunnHacks 8.0 will be held online for all participants.'
         },
         {
             q: 'When does registration close?',
             a: 'Registration will close on February 4th, 2022 at 11:59pm PST, when the hackathon begins.'
-        },
-        {
-            q: 'Why participate in-person?',
-            a: 'For the first time since GunnHacks 5.0, we will host Gunn students in-person. An in-person hackathon ' +
-                'provides a unique opportunity to work side-by-side with your peers and have an experience even more ' +
-                'rewarding than a virtual hackathon.'
-        },
-        {
-            q: 'Will food be provided?',
-            a: 'Yes, we will provide dinner on Saturday, breakfast and lunch on Sunday, and a snack. If you have dietary ' +
-                'restrictions, we strongly suggest bringing your own food.'
         },
         {
             q: 'I’m interested in mentoring! How can I get involved?',
@@ -77,14 +65,13 @@
             q: 'What if I have another question?',
             a: 'We love questions! Please feel free to reach out to us at <a href="mailto:ghshacks@gmail.com">ghshacks@gmail.com</a>.'
         },
-        // TODO: Add questions about COVID protocol / safety and overnight stay or other in person details
     ];
 </script>
 
 <Section red title="FAQ">
     <div class="question-grid">
         {#each questions as {q, a}}
-            <Question q={q} a={a} />
+            <Question {q} {a} />
         {/each}
     </div>
 </Section>
