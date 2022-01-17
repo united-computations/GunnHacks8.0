@@ -20,8 +20,8 @@
 <About />
 <Schedule />
 <Prizes />
-<!-- <Speaker /> -->
-<!-- <Judges /> -->
+<Speaker />
+<Judges />
 <FAQ />
 <Sponsors />
 <Footer />
