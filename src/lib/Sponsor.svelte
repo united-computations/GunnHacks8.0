@@ -11,7 +11,7 @@
 </div>
 
 <style lang="scss">
-  $max-height: 5.5rem;
+  $max-height: 5rem;
   $max-width: 18rem;
   $max-width-small: 16rem;
 
