@@ -18,7 +18,8 @@
 
 <style lang="scss">
   .schedule-column {
-    flex-basis: 50%;
+    width: 350px;
+    flex-grow: 1;
 
     h3 {
       text-align: center;

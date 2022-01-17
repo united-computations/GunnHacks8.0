@@ -29,6 +29,7 @@
 <style lang="scss">
   .schedule-blocks {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
   }
 
