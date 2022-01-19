@@ -11,8 +11,8 @@
         },
         {
             q: 'Who can attend?',
-            a: 'Any high schoolers can attend GunnHacks. Unfortunately, we cannot allow college students ' +
-                'or middle schoolers to attend this time around, and we cannot ship swag/prizes internationally. ' +
+            a: 'Any high schoolers (or below!) can attend GunnHacks. Unfortunately, we cannot allow college students ' +
+                'to attend this time around, and we cannot ship swag/prizes internationally. ' +
                 'International participants are not eligible for prizes or swag.'
         },
         {

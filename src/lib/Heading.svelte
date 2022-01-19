@@ -40,6 +40,8 @@
             <MailIcon class="icon" size="1.5x" />
         </a>
     </div>
+
+    <img class="mlh-trust-badge" src="/mlh-trust-badge-2022.svg" alt="MLH Badge 2022" />
 </section>
 
 <style lang="scss">
@@ -101,6 +103,18 @@
     &.date {
       font-size: 1.25rem;
       margin-top: 1rem;
+    }
+  }
+
+  .mlh-trust-badge {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    width: 7rem;
+
+    @media (max-width: 640px) {
+      width: 4rem;
+      right: 1rem;
     }
   }
 </style>
