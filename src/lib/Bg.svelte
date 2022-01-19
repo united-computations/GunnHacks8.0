@@ -1,5 +1,5 @@
 <script lang="ts">
-    import bg from '/bg.svg';
+    import bg from '../../static/bg.svg';
 </script>
 
 <img id="header-image" src={bg} alt="sunrise">
