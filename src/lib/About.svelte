@@ -2,7 +2,7 @@
     import Section from './Section.svelte';
 </script>
 
-<Section title="About">
+<Section title="About" id="about">
     <p>The eighth iteration of GunnHacks, Gunn High School's annual hackathon.</p>
     <p>
         Join us from February 5th to 6th from 2 PM to 2 PM for a virtual, 24 hour high school hackathon. Work in teams

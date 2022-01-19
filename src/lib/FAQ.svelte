@@ -68,7 +68,7 @@
     ];
 </script>
 
-<Section red title="FAQ">
+<Section red title="FAQ" id="faq">
     <div class="question-grid">
         {#each questions as {q, a}}
             <Question {q} {a} />

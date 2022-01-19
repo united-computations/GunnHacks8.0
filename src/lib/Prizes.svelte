@@ -13,7 +13,7 @@
     ];
 </script>
 
-<Section title="Prizes">
+<Section title="Prizes" id="prizes">
     <div class="prizes-container">
         {#each prizes as {r, p}}
             <div class="rank">{r}</div>

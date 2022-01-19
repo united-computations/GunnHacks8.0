@@ -2,11 +2,11 @@
     export let name: string;
     export let title: string;
     export let desc: string;
-    export let src: string;
+    export let src: string | undefined;
 </script>
 
 <div>
-    <img {src} alt={name}>
+    <img src={src ?? 'lambda.png'} alt={name}>
     <h4 class="name">{name}</h4>
     <p class="desc">{desc}</p>
     <p class="title">{title}</p>

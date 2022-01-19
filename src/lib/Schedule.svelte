@@ -18,7 +18,7 @@
     ];
 </script>
 
-<Section red title="Schedule">
+<Section red title="Schedule" id="schedule">
     <div class="schedule-blocks">
         <ScheduleColumn date="February 5th" schedule={feb5} />
         <ScheduleColumn date="February 6th" schedule={feb6} />
