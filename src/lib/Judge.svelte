@@ -13,6 +13,10 @@
 </div>
 
 <style lang="scss">
+  div {
+    max-width: 15rem;
+  }
+
   img {
     $size: 10rem;
     height: $size;
