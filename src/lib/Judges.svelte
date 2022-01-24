@@ -13,6 +13,7 @@
         <Judge name="Timothy Herchen" title="Mentor / Judge" desc="Gunn graduate. Likes cows." src="judges/judge_mentor_tim.jpg" />
         <Judge name="Yu-Ting Chang" title="Mentor" desc="Gunn student. Likes Python." />
         <Judge name="Ethan Liang" title="Mentor" desc="Gunn student" />
+        <Judge name="Pranavi Prashant" title="Mentor" desc="Pioneers at technical help and cracking lame physics jokes" />
     </div>
 </Section>
 

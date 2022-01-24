@@ -10,6 +10,7 @@
         {r: 'Most Creative', p: '$20 Adafruit Gift Certificate'},
         {r: 'Best Solo Hack', p: 'Discord Nitro Classic (3 Months) + Leading Learners Expansion Pack'},
         {r: 'Best All-Girls Team', p: 'Anker SoundCore Bluetooth Speaker'},
+        {r: 'Best UI/UX Design', p: '$50 Figma Store Gift Card'},
     ];
 </script>
 
