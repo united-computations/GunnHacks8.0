@@ -10,7 +10,8 @@
 
 <Bg/>
 <a href="/"><ArrowLeftIcon size="1x" /><span>Back to home</span></a>
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vRAglw1mef3nzTTRTkP1eVDH6Tpt6kEZUz0lgrWJCm68tFDHNLM-GIDUpZUZkXEIF5FqUtjunfUNfKY/pub?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vRAglw1mef3nzTTRTkP1eVDH6Tpt6kEZUz0lgrWJCm68tFDHNLM-GIDUpZUZkXEIF5FqUtjunfUNfKY/pub?embedded=true"
+        frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 <style lang="scss">
   iframe {
@@ -18,6 +19,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
+    margin: 0 auto;
   }
 
   a {
