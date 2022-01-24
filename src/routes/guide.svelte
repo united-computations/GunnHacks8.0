@@ -10,14 +10,23 @@
 
 <Bg/>
 <a href="/"><ArrowLeftIcon size="1x" /><span>Back to home</span></a>
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vRAglw1mef3nzTTRTkP1eVDH6Tpt6kEZUz0lgrWJCm68tFDHNLM-GIDUpZUZkXEIF5FqUtjunfUNfKY/pub?embedded=true"
-        frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div class="wrapper">
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vRAglw1mef3nzTTRTkP1eVDH6Tpt6kEZUz0lgrWJCm68tFDHNLM-GIDUpZUZkXEIF5FqUtjunfUNfKY/pub?embedded=true"
+            frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
 
 <style lang="scss">
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   iframe {
     // The position: fixed and z-index wasn't needed last year, but for whatever reason is this time around
-    position: fixed;
-    width: 100%;
+    width: 816px; // :(
     height: 100%;
     margin: 0 auto;
   }
