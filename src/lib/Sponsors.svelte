@@ -18,6 +18,7 @@
         <Sponsor href="https://amzn.to/2GontHO" src="sponsors/iotunix.png" alt="IOTunix" />
         <Sponsor href="https://www.leangap.org/" src="sponsors/leangap.svg" alt="Leangap" />
         <Sponsor href="https://www.figma.com/" src="sponsors/figma.svg" alt="Figma" />
+        <Sponsor href="https://hackp.ac/mlh-stickermule-hackathons" src="sponsors/sticker_mule.svg" alt="StickerMule" />
     </div>
 </Section>
 
