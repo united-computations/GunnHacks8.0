@@ -19,6 +19,7 @@
         <Sponsor href="https://www.leangap.org/" src="sponsors/leangap.svg" alt="Leangap" />
         <Sponsor href="https://www.figma.com/" src="sponsors/figma.svg" alt="Figma" />
         <Sponsor href="https://hackp.ac/mlh-stickermule-hackathons" src="sponsors/sticker_mule.svg" alt="StickerMule" />
+        <Sponsor href="https://studentmakers.org" src="sponsors/student_makers.png" alt="Student Makers" />
     </div>
 </Section>
 
