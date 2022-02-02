@@ -3,7 +3,7 @@
     import ScheduleColumn from './ScheduleColumn.svelte';
 
     const feb5 = [
-        ['12:30 PM', 'Opening Ceremony'],
+        ['1:00 PM', 'Opening Ceremony'],
         ['1:30 PM', 'Team formation activity begins'],
         ['2:00 PM', 'Hacking begins'],
         ['2:00 PM', 'Intro to Python Workshop'],
