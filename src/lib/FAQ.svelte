@@ -58,8 +58,9 @@
             a: 'Registration will close on February 4th, 2022 at 11:59pm PST, when the hackathon begins.'
         },
         {
-            q: 'I’m interested in mentoring! How can I get involved?',
-            a: 'Yay! Fill out our mentor application form <a href="https://forms.gle/Rc2QsxPrDN6Hv1uLA">here</a>.'
+            q: 'What do I need to submit?',
+            a: 'You need to submit a DevPost project to https://gunnhacks8.devpost.com that includes a ' + 
+                '1-3 minute demo video and a public link to your code (GitHub/GitLab/Replit).'
         },
         {
             q: 'What if I have another question?',
