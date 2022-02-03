@@ -9,6 +9,7 @@
         ['2:00 PM', 'Intro to Python Workshop'],
         ['4:00 PM', 'React Workshop'],
         ['6:00 PM', '!Light Activity'],
+        ['6:30 PM', 'Cybersecurity Challenges'],
         ['9:00 PM', 'Movie Night'],
     ];
     const feb6 = [

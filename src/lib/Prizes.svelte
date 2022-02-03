@@ -11,6 +11,11 @@
         {r: 'Best Solo Hack', p: 'Discord Nitro Classic (3 Months) + Leading Learners Expansion Pack'},
         {r: 'Best All-Girls Team', p: 'Anker SoundCore Bluetooth Speaker'},
         {r: 'Best UI/UX Design', p: '$50 Figma Store Gift Card'},
+        {r: 'Best Domain Registered with Domain.com', p: 'PowerSquare Qi Wireless Phone Charger'},
+        {r: 'Best Hardware Hack Sponsored by Digi-Key', p: 'Grove Beginner Kit'},
+        {r: 'Most Creative Use of Twilio', p: 'Twilio Swag Box, GameGo Console'},
+        {r: 'Best Web Monetization Project', p: 'Portable Charger, Coil Pin & $60 Credit'},
+        {r: 'Best Use of Auth0', p: 'Exclusive Auth0 Swag (Branded Tumbler, Rubik's Cube & Sticker)'},
     ];
 </script>
 
