@@ -15,7 +15,7 @@
         {r: 'Best Hardware Hack Sponsored by Digi-Key', p: 'Grove Beginner Kit'},
         {r: 'Most Creative Use of Twilio', p: 'Twilio Swag Box, GameGo Console'},
         {r: 'Best Web Monetization Project', p: 'Portable Charger, Coil Pin & $60 Credit'},
-        {r: 'Best Use of Auth0', p: 'Exclusive Auth0 Swag (Branded Tumbler, Rubik's Cube & Sticker)'},
+        {r: 'Best Use of Auth0', p: 'Exclusive Auth0 Swag (Branded Tumbler, Rubik\'s Cube & Sticker)'},
     ];
 </script>
 
