@@ -6,7 +6,7 @@
 </script>
 
 <div>
-    <img src={src ?? 'lambda.png'} alt={name}>
+    <img src={src ?? 'lambdacool.png'} alt={name}>
     <h4 class="name">{name}</h4>
     <p class="desc">{desc}</p>
     <p class="title">{title}</p>

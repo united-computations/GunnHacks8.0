@@ -26,7 +26,6 @@
             <div class="prize">{p}</div>
         {/each}
     </div>
-    <p>More prizes to be announced!</p>
 </Section>
 
 <style lang="scss">
