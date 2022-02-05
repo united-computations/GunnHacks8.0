@@ -6,7 +6,7 @@
     import Button from './Button.svelte';
 
     let visible = false;
-    setTimeout(() => visible = true, 100)
+    setTimeout(() => visible = true, 10);
 </script>
 
 <Bg />
@@ -16,7 +16,7 @@
         {#if visible}
             <div class="title">
                 {#each 'GunnHacks 8.0' as char, i}
-                    <span class="title-character" in:fly="{{y: -20, delay: 1000 + i * 100, duration: 800}}">{char}</span>
+                    <span class="title-character" in:fly="{{y: -20, delay: 400 + i * 100, duration: 800}}">{char}</span>
                 {/each}
             </div>
         {/if}
