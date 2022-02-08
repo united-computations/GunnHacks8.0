@@ -1,5 +1,7 @@
 <script lang="ts" context="module">
     // For the type of `res`, see https://kit.svelte.dev/docs#layouts-error-pages
+    // Note: this page has been deprecated due to `adapter-static`;
+    // See `404.svelte` for the static 404.html for GitHub Pages.
     export function load(res) {
         return { props: res }
     }
