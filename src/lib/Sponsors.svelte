@@ -20,6 +20,8 @@
         <Sponsor href="https://www.figma.com/" src="sponsors/figma.svg" alt="Figma" />
         <Sponsor href="https://hackp.ac/mlh-stickermule-hackathons" src="sponsors/sticker_mule.svg" alt="StickerMule" />
         <Sponsor href="https://studentmakers.org" src="sponsors/student_makers.png" alt="Student Makers" />
+        <Sponsor href="https://www.mitchellparkteenservices.org/thinkfund" src="sponsors/thinkfund.webp" alt="Think Fund" />
+        <Sponsor href="https://www.cityofpaloalto.org/" src="sponsors/city_of_palo_alto.png" alt="City of Palo Alto" />
     </div>
 </Section>
 
